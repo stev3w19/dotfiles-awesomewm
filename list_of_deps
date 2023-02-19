@@ -1,0 +1,47 @@
+# basic
+zsh
+zsh-syntax-highlighting
+xorg
+xclip
+xorg-xinit
+usbutils
+unzip
+udiskie
+openssh
+# look and feel
+nitrogen
+picom
+redshift
+# gtk themes
+arc-gtk-theme
+# get arc icons from upstream
+# wm apps
+rofi
+alacritty
+kitty
+feh
+lsd
+# gui apps
+keepassxc
+kvantum
+lxappearance-gtk3
+lxsession-gtk3
+#audio 
+alsa-utils
+pulseaudio
+pamixer
+pavucontrol
+mpd
+ncmpcpp
+#bluetooth
+pulseaudio-bluetooth
+bluez-utils
+blueman
+#aur
+awesome-git
+brillo
+ly
+vscodium-bin
+librewolf-bin
+ani-cli-git
+mullvad-vpn-bin
