@@ -1,5 +1,4 @@
-# dotfiles-awesomewm
-dropped
-but checkout my scratchpad script
+# dotfiles-awesomewm (dropped)
+checkout my scratchpad script
 .config/awesome/element/scratchpad.lua
 /also has hypr
