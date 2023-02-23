@@ -12,7 +12,7 @@ if [ -f $sysmodmap ]; then
 fi
 
 ### steven's modifications
-userresources=$HOME/X11/.Xresources
+userresources=$HOME/.config/X11/.Xresources
 if [ -f "$userresources" ]; then
     xrdb -merge "$userresources"
 fi
@@ -33,24 +33,13 @@ fi
 # Input configurations - move this somewhere else?
 #moved these to awesome/script.sh
 # Graphical utilities
-nitrogen --restore &
 picom &
 redshift &
-
-
-
-
 
 # Systray apps
 udiskie --tray &
 keepassxc &
 blueman-applet &
-
-
-
-
-
-
 
 ## awesome 
 exec awesome

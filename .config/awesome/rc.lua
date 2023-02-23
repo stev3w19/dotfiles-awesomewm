@@ -46,3 +46,6 @@ require("binding.user-apps")
 
 -- configure inputs
 awful.spawn.with_shell(gfs.get_configuration_dir() .. "input_config.sh")
+
+
+awful.spawn.with_shell("lxsession &")
